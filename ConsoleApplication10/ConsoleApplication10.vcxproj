@@ -19,7 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="error_screen.cpp" />
+    <ClCompile Include="home_screen.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dev_main.h" />
+    <ClInclude Include="flavor.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="prod_main.h" />
+    <ClInclude Include="screens.h" />
+    <ClInclude Include="stage_main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

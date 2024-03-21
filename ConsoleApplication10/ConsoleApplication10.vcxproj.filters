@@ -28,10 +28,39 @@
     <Filter Include="main">
       <UniqueIdentifier>{4cd845e0-7bb0-41ef-b6f5-63231b8b1ad8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{688c4146-c972-4dd5-9623-c1c3491cd051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\dev">
+      <UniqueIdentifier>{38b0bc9d-be75-47ec-8755-3835b978fabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\prod">
+      <UniqueIdentifier>{8384ec3e-c462-4fb7-86c4-cf9fbd38aa4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\stage">
+      <UniqueIdentifier>{eeaf5012-7970-4723-8359-60ae0d629a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\library">
+      <UniqueIdentifier>{7e3bad9f-d33d-4d5f-ad84-ad679dcbc35a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dev_main.h">
+      <Filter>application\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_main.h">
+      <Filter>application\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="prod_main.h">
+      <Filter>application\prod</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>core\library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
