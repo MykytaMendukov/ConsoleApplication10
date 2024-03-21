@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{9aa02af7-6dec-4bb1-9d4e-90a948e781c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature">
+      <UniqueIdentifier>{605aa797-3258-4326-8545-70a494136da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\data">
+      <UniqueIdentifier>{580729e1-70d6-4b74-8626-55699997a6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\domain">
+      <UniqueIdentifier>{4606aa25-4618-47b7-a313-35d8bee8907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\presentation">
+      <UniqueIdentifier>{fe0f500e-f21d-465b-ab41-c78f144b76c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\theme">
+      <UniqueIdentifier>{43d290ae-f196-490c-9132-c2a2c5294208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\const">
+      <UniqueIdentifier>{f136c314-21ba-496a-813d-b999104ec8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\errors">
+      <UniqueIdentifier>{e9fc1164-94a5-4718-8263-980a1a360c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4cd845e0-7bb0-41ef-b6f5-63231b8b1ad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
