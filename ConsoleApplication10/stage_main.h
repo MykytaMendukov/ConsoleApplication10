@@ -7,7 +7,6 @@
 void stage_main()
 {
 	cout << "Stage is running" << endl;
-	AppScreens::Home("Tester");
 }
 
 #endif

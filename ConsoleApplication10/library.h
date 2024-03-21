@@ -1,9 +1,12 @@
 #include <iostream>
-#include <Windows.h>
+#include <string>
 #include <conio.h>
-#include <iomanip>
+#include <Windows.h>
 
-using std::string;
+
 using std::cout;
 using std::endl;
 using std::cin;
+using std::string;
+
+////trim placed to validation.cpp////

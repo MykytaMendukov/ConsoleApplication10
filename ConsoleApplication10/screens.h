@@ -2,6 +2,7 @@
 #define h_screens 
 
 #include "library.h"
+#include "user.h"
 
 class AppScreens
 {

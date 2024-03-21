@@ -1,8 +1,10 @@
 #include "screens.h"
 
+
 void AppScreens::Home(string name)
 {
-	if (name == "admin")
+	string* login = new string(name);
+	if (name == "Admin")
 	{
 		cout << "Welcome to admin credentials, " << name << "!" << endl;
 	}
