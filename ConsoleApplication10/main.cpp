@@ -5,7 +5,7 @@ int main() {
 	string name;
 	do
 	{
-//		system("cls");
+		system("cls");
 		cout << "Enter type: ";
 		cin >> custom_flavors_type;
 		if (custom_flavors_type == 1 || custom_flavors_type == 2 || custom_flavors_type == 3)
@@ -20,7 +20,7 @@ int main() {
 			cout << "Invalid type!" << endl;
 		}
 
-//		system("pause");
+		system("pause");
 	} while (true);
 	FlavorsType flavors_type = (FlavorsType)custom_flavors_type;
 	Flavors::runApp(flavors_type);
